@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Transições</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="transition.css">
+	</head>
+	<body>
+		<center>
+			<h1>Demostração da Duração da Transição</h1>
+			<h2>width, color, padding</h2>
+			<div class="cinco"><p class="efeito">5 segundos (5s)</p></div>
+			<div class="quatro"><p class="efeito">4 segundos (4s)</p></div>
+			<div class="tres"><p class="efeito">3 segundos (3s)</p></div>
+			<div class="dois"><p class="efeito">2 segundos (2s)</p></div>
+			<div class="um"><p class="efeito">1 segundo (1s)</p></div>
+			
+			<hr>
+			
+			<h1>Demostração de Duração da transition-timing-function</h1>
+			<h2>width, color, padding</h2>
+			<hr class="divisoria">
+			<div class="linear"><p class="linear_texto">Linear</p></div>
+			<p>Mesma velocidade do começo ao fim</p>
+			<hr class="divisoria">
+			<div class="ease"><p class="ease_texto">Ease</p></div>
+			<p>Começo lento, meio rápido e final é lento </p>
+			<p>(padrão)</p>
+			<hr class="divisoria">
+			<div class="ease-in"><p class="ease-in_texto">Ease-in</p></div>
+			<p>Começo Lento</p>
+			<hr class="divisoria">
+			<div class="ease-out"><p class="ease-out_texto">Ease-out</p></div>
+			<p>Final lento</p>
+			<hr class="divisoria">			
+			<div class="ease-in-out"><p class="ease-in-out_texto">Ease-in-out</p></div>
+			<p>Começo e final lento</p>
+			<hr class="divisoria">	
+			<br>
+			<div class="cubic-bezier"><p class="cubic_texto">cubic-bezier</p></div>
+			<p>Customizado</p>
+			<hr class="divisoria">	
+		</center>
+	</body>
+</html>

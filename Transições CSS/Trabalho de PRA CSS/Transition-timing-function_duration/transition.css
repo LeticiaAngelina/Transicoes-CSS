@@ -1,0 +1,115 @@
+body {
+	background-color: #9eb2b1;
+}
+.divisoria {
+	width: 25%;
+}
+div {
+    width: 100px;
+    height: 80px;
+    background: #2E9AFE;
+}
+p {
+	color: white;
+}
+/*--------------------------*/
+.efeito:hover {
+	color: black;
+	padding-top: 30px;
+	transition-duration: 2s;
+}
+.cinco:hover {
+	width: 300px;
+	transition-duration: 5s;
+}
+.quatro:hover {
+	width: 300px;
+	transition-duration: 4s;
+}
+.tres:hover {
+	width: 300px;
+	transition-duration: 3s;
+}
+.dois:hover {
+	width: 300px;
+	transition-duration: 2s;
+}
+.um:hover {
+	width: 300px;
+	transition-duration: 1s;
+}
+/*--------------------------*/
+.linear:hover {
+	width:300px;
+	transition-timing-function: linear;
+	transition-duration: 2s;
+}
+.ease:hover {
+	width:300px;
+	transition-timing-function: ease; 
+	transition-duration: 2s;
+}
+.ease-in:hover {
+	width:300px;
+	transition-timing-function: ease-in;
+	transition-duration: 2s;
+}
+.ease-out:hover {
+	width:300px;
+	transition-timing-function: ease-out;
+	transition-duration: 2s;
+}
+.ease-in-out:hover {
+	width:300px;
+	transition-timing-function: ease-in-out;
+	transition-duration: 2s;
+}
+.cubic-bezier:hover {
+	width: 300px;
+	transition-timing-function: cubic-bezier(0.000, 1.650, 0.140, 0.140); /*começo bem rapido*/
+	transition-duration: 2s;
+}
+/*Site para custumização do cubic bezier usando a curva de bezier : https://matthewlein.com/ceaser/  */
+/*-------------Textos----------------*/
+.linear_texto:hover {
+	color: black;
+	padding-top: 30px;
+	transition-duration: 2s;	
+	transition-timing-function: linear;
+}
+.ease_texto:hover {
+	color: black;
+	padding-top: 30px;
+	transition-duration: 2s;	
+	transition-timing-function: ease;
+}
+.ease-in_texto:hover {
+	color: black;
+	padding-top: 30px;
+	transition-duration: 2s;	
+	transition-timing-function: ease-in;
+}
+.ease-out_texto:hover {
+	color: black;
+	padding-top: 30px;
+	transition-duration: 2s;	
+	transition-timing-function: ease-out;
+}
+.ease-out_texto:hover {
+	color: black;
+	padding-top: 30px;
+	transition-duration: 2s;	
+	transition-timing-function: ease-out;
+}
+.ease-in-out_texto:hover {
+	color: black;
+	padding-top: 30px;
+	transition-duration: 2s;	
+	transition-timing-function: ease-in-out;
+}
+.cubic_texto:hover {
+	color: black;
+	padding-top: 30px;
+	transition-duration: 2s;	
+	transition-timing-function: cubic-bezier(0.000, 1.650, 0.140, 0.140);
+}

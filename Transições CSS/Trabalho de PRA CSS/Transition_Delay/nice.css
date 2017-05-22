@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+	/*transition: width, 2s, linear, 2s;*/
+}
+
+div:hover {
+    width: 300px;
+}
